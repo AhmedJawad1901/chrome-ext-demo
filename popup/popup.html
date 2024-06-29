@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebSocket URL Input</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="popup.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <input type="text" id="websocket-url" placeholder="Enter WebSocket URL" />
+      <button id="save-button">Save URL</button>
+      <p id="status">Not Connected</p>
+    </div>
+
+    <div>
+        <div class="notification-flex">
+            <h3>Notifications</h3>
+            <button id="clear-notification">X</button>
+        </div>
+      <ul id="notifications-list" class="notification-container"></ul>
+    </div>
+  </body>
+</html>

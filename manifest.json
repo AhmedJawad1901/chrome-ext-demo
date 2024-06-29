@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Websocket-Notifier",
+    "version": "1.0",
+    "description": "Get notifications from a websocket.",
+    "permissions": [
+        "notifications",
+        "storage",
+        "webNavigation"
+      ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "./popup/popup.html",
+      "default_icon": "./images/notification2.png"
+    }
+  }
+  
